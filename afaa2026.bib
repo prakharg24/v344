@@ -1,0 +1,33 @@
+@Proceedings{AFAA-2026,
+    booktitle = {Proceedings of The Algorithmic Fairness Across Alignment Procedures and Agentic Systems},
+    name = {Algorithmic Fairness Across Alignment Procedures and Agentic Systems},
+    shortname = {AFAA},
+    editor = {Tang, Zeyu and Ganesh, Prakhar and Dieng, Awa and Rateike, Miriam and Watson-Daniels, Jamelle and Farnadi, Golnoosh},
+    volume = {344},
+    year = {2026},
+    start = {2026-04-26},
+    end = {2026-04-26},
+    conference_url = {https://www.afciworkshop.org/afaa-2026},
+    address = {Riocentro Convention and Event Center, Rio de Janeiro, Brazil}
+}
+
+@InProceedings{pearman26,
+    title = {Mechanics of Bias and Reasoning: Interpreting the Impact of Chain-of-Thought Prompting on Gender Bias in LLMs},
+    author = {Pearman, Edie and Osborne, Sophia and Kandlikar-Bloch, Mira and Arzaghi, Mina and Carichon, Florian and Farnadi, Golnoosh},
+    pages = {1-33},
+    abstract = {Large language models (LLMs) are increasingly deployed in socially sensitive settings despite substantial documentation that they encode gender biases. Chain-of-Thought (CoT) prompting has been proposed as a bias-mitigation approach. However, existing evaluations primarily focus on changes in LLM benchmark performance, providing limited insight into whether apparent bias reductions reflect meaningful changes in a model’s internal mechanisms. In this work, we investigate how CoT prompting a!ects gender bias in LLMs, combining benchmark-based evaluation with mechanistic interpretability techniques and reasoning chain failure analysis. Our results confirm a stereotypical bias present in LLM outputs across benchmarks, showing that CoT prompting does not consistently reduce the bias gap. Mechanistic analyses reveal that although CoT balances biased behavior in certain attention head clusters, gender bias remains embedded in hidden representations, indicating only superficial mitigation. Inspection of reasoning chains further suggests that these improvements frequently co-occur with bias statements, and may reflect dataset familiarity rather than genuine bias mitigation.}
+}
+
+@InProceedings{gharat26,
+    title = {Memories That Discriminate: Detecting and Correcting Bias in Personalized Hiring Agents},
+    author = {Gharat, Himanshu and Agrawal, Himanshi and Patro, Gourab K},
+    pages = {34-71},
+    abstract = {Memory modules in LLM-based agents enable continuity across interactions with users, especially to deliver personalized experiences. While agents constantly interact with memory, their interpretation of memory contents is crucial to how agents might behave next. Thus, any one-sided interpretation (stereotypical or otherwise) of some memory content by an agent might lead to unintended biases in its actions which the LLM guardrails might fail to catch (especially when explicit stereotypical phrases are not present). Moreover, while bias and safety issues in LLMs have been extensively studied, similar studies are largely absent in memory-enhanced LLM-based agents. Thus, considering the use case of a hiring agent, in this paper, we configure and test a hiring agent orchestrating different types of workflows. We seek to understand whether and when agents are prone to one-sided interpretations of memory content, and if it can happen, what would be the impact and how to prevent it. Our experiments reveal that one-sided memory misinterpretations can happen based on the context and potential fields (e.g., gender, race, or other attributes of interest), and as a result bias is introduced and propagated through an agent workflow (even when the LLM used is already safety-trained). This leads to bias and prejudice by agents even when it is not intended or preferred by the users, emphasizing the need for additional protective measures. Our proposed Fairness Regulation Learning (FRL) and Task-Aware In-Context Fairness Regulation Learning (TA-ICFRL) reduce such one-sided interpretations by injecting fairness-aware or balancing instructions during task execution.}
+}
+
+@InProceedings{smith26,
+    title = {Operationalizing Fairness in Text-to-Image Models: A Survey of Bias, Fairness Audits and Mitigation Strategies},
+    author = {Smith, Megan and Thirugnana Sambandham, Venkatesh and Richter, Florian and Crompton, Laura and Uhl, Matthias and Sch\"{o}n, Torsten},
+    pages = {72-92},
+    abstract = {Text-to-Image (T2I) generation models have been widely adopted across various industries, yet are criticized for frequently exhibiting societal stereotypes. While a growing body of research has emerged to evaluate and mitigate these biases, the field at present contends with conceptual ambiguity, for example terms like ”bias” and ”fairness” are not always clearly distinguished and often lack clear operational definitions. This paper provides a comprehensive systematic review of T2I fairness literature, organizing existing work into a taxonomy of bias types and fairness notions. We critically assess the gap between ”target fairness” (normative ideals in T2I outputs) and ”threshold fairness” (normative standards with actionable decision rules). Furthermore, we survey the landscape of mitigation strategies, ranging from prompt engineering to di!usion process manipulation. We conclude by proposing a new framework for operationalizing fairness that moves beyond descriptive metrics towards rigorous, target-based testing, o!ering an approach for more accountable generative AI development.}
+}
